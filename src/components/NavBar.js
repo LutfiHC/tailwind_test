@@ -24,7 +24,7 @@ const NavBar = () => {
           </button>
           <button className="px-8 py-3">Sign Up</button>
         </div>
-        <div className="md:hidden" onClick={handleClick}>
+        <div className="md:hidden mr-4" onClick={handleClick}>
             {!nav ? <MenuIcon style={{ width: "2rem" }} /> : <XIcon style={{ width: "2rem" }} />}
         </div>
       </div>
