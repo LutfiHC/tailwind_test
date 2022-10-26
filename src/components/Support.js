@@ -5,7 +5,7 @@ import supportImg from "../assets/group.png"
 
 const Support = () => {
   return (
-    <div name="support" className="w-full h-screen mt-24">
+    <div name="support" className="w-full my-32">
       <div className="w-full h-[700px] bg-gray-900/90 absolute">
         <img className="w-full h-full object-cover mix-blend-overlay" src={supportImg} alt="/" />
       </div>
@@ -27,7 +27,7 @@ const Support = () => {
               <h3 className="font-bold text-2xl my-6">Sales</h3>
               <p className="text-gray-600 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a molestie diam. Cras et tempor leo. Proin ac elit ut leo eleifend finibus nec quis libero.</p>
             </div>
-            <div className="bg-slate-100 pl-8 py-4">
+            <div className="bg-slate-100 pl-8 py-4 mb-2">
               <p className="flex items-center text-indigo-600 justify-content-end">Contact Us<ArrowSmRightIcon className="w-5 ml-2" /></p>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Support = () => {
               <h3 className="font-bold text-2xl my-6">Technical Support</h3>
               <p className="text-gray-600 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo vehicula diam vitae posuere. Praesent vel nisi in felis congue feugiat. Ut mattis rhoncus lacus.</p>
             </div>
-            <div className="bg-slate-100 pl-8 py-4">
+            <div className="bg-slate-100 pl-8 py-4 mb-2">
               <p className="flex items-center text-indigo-600">Contact Us<ArrowSmRightIcon className="w-5 ml-2" /></p>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Support = () => {
               <h3 className="font-bold text-2xl my-6">Media Inquiries</h3>
               <p className="text-gray-600 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis massa sed diam tempor fermentum dapibus nec metus. Vivamus eu eleifend nunc, vel placerat metus.</p>
             </div>
-            <div className="bg-slate-100 pl-8 py-4">
+            <div className="bg-slate-100 pl-8 py-4 mb-2">
               <p className="flex items-center text-indigo-600">Contact Us<ArrowSmRightIcon className="w-5 ml-2" /></p>
             </div>
           </div>

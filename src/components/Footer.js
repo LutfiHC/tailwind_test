@@ -15,43 +15,43 @@ const Footer = () => {
         <div>
           <h6 className="font-bold uppercase pt-2">Solutions</h6>
           <ul>
-            <li className="py-1">Marketing</li>
-            <li className="py-1">Analytics</li>
-            <li className="py-1">Commerce</li>
-            <li className="py-1">Data</li>
-            <li className="py-1">Cloud</li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Marketing</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Analytics</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Commerce</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Data</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Cloud</button></li>
           </ul>
         </div>
 
         <div>
           <h6 className="font-bold uppercase pt-2">Support</h6>
           <ul>
-            <li className="py-1">Pricing</li>
-            <li className="py-1">Documentation</li>
-            <li className="py-1">Guides</li>
-            <li className="py-1">API Status</li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Pricing</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Documentation</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Guides</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">API Status</button></li>
           </ul>
         </div>
 
         <div>
           <h6 className="font-bold uppercase pt-2">Company</h6>
           <ul>
-            <li className="py-1">About</li>
-            <li className="py-1">Blogs</li>
-            <li className="py-1">Jobs</li>
-            <li className="py-1">Press</li>
-            <li className="py-1">Partners</li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">About</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Blogs</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Jobs</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Press</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Partners</button></li>
           </ul>
         </div>
 
         <div>
           <h6 className="font-bold uppercase pt-2">Legal</h6>
           <ul>
-            <li className="py-1">Claims</li>
-            <li className="py-1">Privacy</li>
-            <li className="py-1">Terms</li>
-            <li className="py-1">Policies</li>
-            <li className="py-1">Conditions</li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Claims</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Privacy</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Terms</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Policies</button></li>
+            <li className="py-1"><button className="border-none bg-slate-900 hover:text-gray-300">Conditions</button></li>
           </ul>
         </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
           <p className="font-bold uppercase">Subscribe to our newsletter</p>
           <p className="py-4">The latest news, articles, and resources - sent to your inbox weekly.</p>
           <form className="flex flex-col sm:flex-row">
-            <input className="w-full p-2 mr-4 rounded-md mb-4" type="email" />
+            <input className="w-full p-2 mr-4 rounded-md mb-4 text-black" type="email" />
             <button className="p-2 mb-4">Subscribe</button>
           </form>
         </div>
@@ -68,11 +68,11 @@ const Footer = () => {
       <div className="flex flex-col max-w-[1240px] px-2 py-2 mx-auto justify-between sm:flex-row text-center text-gray-500">
         <p className="py-4">2022 Lutfisk, LLC. All rights reserved</p>
         <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
-          <FaFacebook />
-          <FaInstagram />
-          <FaTwitter />
-          <FaTwitch />
-          <FaGithub />
+          <button className="border-none bg-slate-900 text-gray-400"><FaFacebook className="hover:text-[#4267B2]" /></button>
+          <button className="border-none bg-slate-900 text-gray-400"><FaInstagram className="hover:bg-gradient-to-tr from-[#FCAF45] via-[#C13584] to-[#5B51D8] hover:text-white" /></button>
+          <button className="border-none bg-slate-900 text-gray-400"><FaTwitter className="hover:text-[#1DA1F2]" /></button>
+          <button className="border-none bg-slate-900 text-gray-400"><FaTwitch className="hover:text-[#9146FF]" /></button>
+          <button className="border-none bg-slate-900 text-gray-400"><FaGithub className="hover:text-white" /></button>
         </div>
       </div>
     </div>
