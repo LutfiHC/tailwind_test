@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import {
   FaFacebook,
@@ -68,11 +69,11 @@ const Footer = () => {
       <div className="flex flex-col max-w-[1240px] px-2 py-2 mx-auto justify-between sm:flex-row text-center text-gray-500">
         <p className="py-4">2022 Lutfisk, LLC. All rights reserved</p>
         <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
-          <button className="border-none bg-slate-900 text-gray-400"><FaFacebook className="hover:text-[#4267B2]" /></button>
-          <button className="border-none bg-slate-900 text-gray-400"><FaInstagram className="hover:bg-gradient-to-tr from-[#FCAF45] via-[#C13584] to-[#5B51D8] hover:text-white" /></button>
-          <button className="border-none bg-slate-900 text-gray-400"><FaTwitter className="hover:text-[#1DA1F2]" /></button>
-          <button className="border-none bg-slate-900 text-gray-400"><FaTwitch className="hover:text-[#9146FF]" /></button>
-          <button className="border-none bg-slate-900 text-gray-400"><FaGithub className="hover:text-white" /></button>
+          <a href="https://facebook.com/fluffside" target="_blank"><button className="border-none bg-slate-900 text-gray-400"><FaFacebook className="hover:text-[#4267B2]" /></button></a>
+          <a href="https://instagram.com/fluffside" target="_blank"><button className="border-none bg-slate-900 text-gray-400"><FaInstagram className="hover:bg-gradient-to-tr from-[#FCAF45] via-[#C13584] to-[#5B51D8] hover:text-white" /></button></a>
+          <a href="https://twitter.com/fluffside" target="_blank"><button className="border-none bg-slate-900 text-gray-400"><FaTwitter className="hover:text-[#1DA1F2]" /></button></a>
+          <a href="https://twitch.tv/fluffside" target="_blank"><button className="border-none bg-slate-900 text-gray-400"><FaTwitch className="hover:text-[#9146FF]" /></button></a>
+          <a href="https://github.com/LutfiHC" target="_blank"><button className="border-none bg-slate-900 text-gray-400"><FaGithub className="hover:text-white" /></button></a>
         </div>
       </div>
     </div>
