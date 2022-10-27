@@ -5,6 +5,7 @@ import loginImg from "../assets/login.png"
 
 const SignIn = () => {    
   const navigate = useNavigate();
+  
   return(
     <div className="relative w-full h-screen bg-zinc-900/90">
       <img className="absolute w-full h-full object-cover mix-blend-overlay" src={loginImg} alt=""></img>
