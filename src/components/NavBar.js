@@ -3,9 +3,9 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const NavBar = () => {
-    const [nav, setNav] = useState(false)
-    const handleClick = () => setNav(!nav)
-    const handleClose = () => setNav(!nav)
+  const [nav, setNav] = useState(false)
+  const handleClick = () => setNav(!nav)
+  const handleClose = () => setNav(!nav)
 
   return (
     <div className="w-screen h-[80px] z-10 bg-zinc-100 fixed drop-shadow-lg">
@@ -21,10 +21,8 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
-          <button className="border-none bg-transparent text-black mr-4">
-            Sign In
-          </button>
-          <button className="px-8 py-3">Sign Up</button>
+        <a href="/signin" className="pt-3"><button className="border-none bg-transparent text-black mr-4">Sign In</button></a>
+        <a href="/signup"><button className="px-8 py-3">Sign Up</button></a>
         </div>
         <div className="md:hidden mr-4" onClick={handleClick}>
             {!nav ? <MenuIcon style={{ width: "2rem" }} /> : <XIcon style={{ width: "2rem" }} />}
@@ -38,8 +36,8 @@ const NavBar = () => {
         <li className="border-b-2 border-zinc-300 w-full"><Link onClick={handleClose} to="platform" smooth={true} offset={-100} duration={500}>Platforms</Link></li>
         <li className="border-b-2 border-zinc-300 w-full"><Link onClick={handleClose} to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li>
         <div className="flex flex-col my-4">
-            <button className="bg-transparent text-indigo-600 px-8 py-3 mb-4">Sign In</button>
-            <button className="px-8 py-3">Sign Up</button>
+          <a href="/signin"><button className="bg-transparent text-indigo-600 px-8 py-3 mb-4">Sign In</button></a>
+          <a href="/signup"><button className="px-8 py-3">Sign Up</button></a>
         </div>
       </ul>
     </div>
