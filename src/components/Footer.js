@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 
 import {
   FaFacebook,
@@ -61,7 +60,7 @@ const Footer = () => {
           <p className="py-4">The latest news, articles, and resources - sent to your inbox weekly.</p>
           <form className="flex flex-col sm:flex-row">
             <input className="w-full p-2 mr-4 rounded-md mb-4 text-black" type="email" />
-            <button className="p-2 mb-4">Subscribe</button>
+            <button className="p-2 mb-4 hover:bg-indigo-700 hover:text-white">Subscribe</button>
           </form>
         </div>
       </div>

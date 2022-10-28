@@ -36,8 +36,8 @@ const SignUp = () => {
             <p><input className="mx-1 mr-2" type="checkbox" />Sign me up for newsletters</p>
           </div>
 
-          <button className="border w-full my-5 py-2">Sign Up</button>
-          <button className="border w-full mb-5 py-2 bg-slate-500 border-none hover:text-gray-700" onClick={(event) => (navigate("/signin"), event.preventDefault())}>Sign In</button>
+          <button className="border w-full my-5 py-2 hover:bg-indigo-700 hover:text-white">Sign Up</button>
+          <button className="border w-full mb-5 py-2 bg-slate-500 border-none hover:text-white hover:bg-slate-600" onClick={(event) => (navigate("/signin"), event.preventDefault())}>Sign In</button>
         </form>
       </div>
     </div>
