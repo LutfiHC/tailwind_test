@@ -5,10 +5,13 @@ import {
   PaperAirplaneIcon,
   ServerIcon,
 } from "@heroicons/react/solid";
+import { useNavigate } from "react-router-dom";
 
 import bgImg from "../assets/lutfi_icon.png";
 
 const Hero = () => {
+  const navigate = useNavigate();
+  
   return (
     <div name="home" className="w-full h-screen bg-zinc-200 flex flex-col justify-between">
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto px-5">
@@ -18,7 +21,7 @@ const Hero = () => {
             Cloud Management
           </h1>
           <p className="text-2xl">This is our Tech Brand</p>
-          <button className="py-3 px-6 sm:w-[60%] my-4">Get Started</button>
+          <button className="py-3 px-6 sm:w-[60%] my-4" onClick={(event) => (navigate("/getstarted"), event.preventDefault())}>Get Started</button>
         </div>
         <div>
           <img className="w-full" src={bgImg} alt="/"></img>
