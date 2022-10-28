@@ -31,7 +31,7 @@ const Pricing = () => {
               <p className="flex py-4"><XIcon className="w-8 mr-5 text-red-700" /> Lorem ipsum dolor sit.</p>
               <p className="flex py-4"><XIcon className="w-8 mr-5 text-red-700" /> Lorem ipsum dolor sit.</p>
               <p className="flex py-4"><XIcon className="w-8 mr-5 text-red-700" /> Lorem ipsum dolor.</p>
-              <button className="w-full py-4 my-4" onClick={(event) => (navigate("/getstarted"), event.preventDefault())}>Get Started</button>
+              <button className="w-full py-4 my-4 hover:bg-indigo-700 hover:text-white" onClick={(event) => (navigate("/getstarted"), event.preventDefault())}>Get Started</button>
             </div>
           </div>
 
@@ -47,7 +47,7 @@ const Pricing = () => {
               <p className="flex py-4"><CheckIcon className="w-8 mr-5 text-green-600" /> Lorem ipsum dolor sit.</p>
               <p className="flex py-4"><CheckIcon className="w-8 mr-5 text-green-600" /> Lorem ipsum dolor sit.</p>
               <p className="flex py-4"><CheckIcon className="w-8 mr-5 text-green-600" /> Lorem ipsum dolor.</p>
-              <button className="w-full py-4 my-4" onClick={(event) => (navigate("/getstarted"), event.preventDefault())}>Get Started</button>
+              <button className="w-full py-4 my-4 hover:bg-indigo-700 hover:text-white" onClick={(event) => (navigate("/getstarted"), event.preventDefault())}>Get Started</button>
             </div>
           </div>
         </div>

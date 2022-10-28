@@ -21,7 +21,7 @@ const Hero = () => {
             Cloud Management
           </h1>
           <p className="text-2xl">This is our Tech Brand</p>
-          <button className="py-3 px-6 sm:w-[60%] my-4" onClick={(event) => (navigate("/getstarted"), event.preventDefault())}>Get Started</button>
+          <button className="py-3 px-6 sm:w-[60%] my-4 hover:bg-indigo-700 hover:text-white" onClick={(event) => (navigate("/getstarted"), event.preventDefault())}>Get Started</button>
         </div>
         <div>
           <img className="w-full" src={bgImg} alt="/"></img>

@@ -28,8 +28,8 @@ const SignIn = () => {
             <button className="border-none bg-transparent text-black mr-4 hover:text-blue-700"  onClick={(event) => (navigate("/signup"), event.preventDefault())}>Create an account</button>
           </div>
 
-          <button className="border w-full my-5 py-2">Sign In</button>
-          <button className="border w-full mb-5 py-2 bg-slate-500 border-none hover:text-gray-700" onClick={(event) => (navigate("/"), event.preventDefault())}>Back</button>
+          <button className="border w-full my-5 py-2 hover:bg-indigo-700 hover:text-white">Sign In</button>
+          <button className="border w-full mb-5 py-2 bg-slate-500 border-none hover:text-white hover:bg-slate-600" onClick={(event) => (navigate("/"), event.preventDefault())}>Back</button>
         </form>
       </div>
     </div>
